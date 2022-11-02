@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abrag | إعرف برجك</title>
+    <link rel="shortcut icon" href="img/icon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <i class="fa-solid fa-fan fan1"></i>
+        <span class="txt">إعرف برجك من خلال تاريخ ميلادك</span>
+        <i class="fa-solid fa-sun sun"></i>
+        <i class="fa-solid fa-moon moon"></i>
+        <i class="fa-solid fa-fan fan2"></i>
+    </header>
+    <!-- end header -->
+
+    <!-- start section -->
+        <section>
+            <form>
+                <select class='val'>
+                    <option disabled selected>قم بإختيار اليوم</option>
+
+                    <script>
+                        for( let i = 1 ; i <= 31 ; i++ ){
+                            document.write("<option> "+ i +" </option>")
+                        }
+                    </script>
+                </select>
+
+                <select class='val1'>
+                    <option disabled selected>قم بإختيار الشهر</option>
+                    <script>
+                        for( let i = 1 ; i <= 12 ; i++ ){
+                            document.write("<option> "+ i +" </option>")
+                        }
+                    </script>
+                </select>
+                <input id="p" type="button" value="تأكيد">
+            </form>
+        </section>
+    <!-- end section -->
+
+    <!-- start div -->
+        <div class="result">
+            <div class="img">
+                <!-- result image here -->
+            </div>
+            <span class="name">
+                <!-- name -->
+            </span>
+            <span class="adv">
+            <!-- result advantage here -->
+            </span>
+        </div>
+    <!-- end div  -->
+
+    <!-- start footer -->
+        <footer>
+            <span>© <a href="https://github.com/mahmoud-y0usef" target="_blank">Mahmoud Yousef</a>. All Rights Reserved.</span>
+        </footer>
+    <!-- end footer -->
+    <script src="main.js"></script>
+</body>
+
+</html>
