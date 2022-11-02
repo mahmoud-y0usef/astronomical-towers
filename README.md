@@ -2,6 +2,6 @@
 <img src="1.png">
 <img src="2.png">
 
-Technologies used : html css js
+Languages used : html - css - js
 
-view : https://astronomical-towers.web.app/
+[<img src="https://img.shields.io/badge/view-%23000000.svg?&style=for-the-badge">](https://astronomical-towers.web.app/)
